@@ -59,13 +59,18 @@ These mechanisms are incorporated into the U-Net encoder and decoder blocks to i
 
 The project compares two implementations of the HAAM module:
 
+**Project Diagrm**
 <p align="center">
   <img src="figures/project_diagram.png" width="850">
 </p>
 
+**HAAM CNN UNET Implementation** 
+
 <p align="center">
   <img src="figures/HAAM CNN UNET Implementation.png" width="850">
 </p> 
+
+**HAAM ONN UNET Implementation** 
 
 <p align="center">
   <img src="figures/HAAM ONN UNET Implementation.png" width="850">
@@ -408,3 +413,4 @@ If this project is useful for your research, please cite the associated thesis o
 Master's Research Project ΓÇö Medical Image Segmentation & Deep Learning
 
 [GitHub](https://github.com/hoda27/pancreas-ct-segmentation)
+[Paper] (https://osf.io/fjx2a/overview)
