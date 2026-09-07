@@ -59,18 +59,19 @@ These mechanisms are incorporated into the U-Net encoder and decoder blocks to i
 
 The project compares two implementations of the HAAM module:
 
-**Project Diagrm**
+**Project Diagarm:**
+
 <p align="center">
   <img src="figures/project_diagram.png" width="850">
 </p>
 
-**HAAM CNN UNET Implementation** 
+**HAAM CNN UNET Implementation:** 
 
 <p align="center">
   <img src="figures/HAAM CNN UNET Implementation.png" width="850">
 </p> 
 
-**HAAM ONN UNET Implementation** 
+**HAAM ONN UNET Implementation:** 
 
 <p align="center">
   <img src="figures/HAAM ONN UNET Implementation.png" width="850">
