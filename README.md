@@ -64,11 +64,11 @@ The project compares two implementations of the HAAM module:
 </p>
 
 <p align="center">
-  <img src="figures/HAAM CNN UNET Implementation" width="850">
+  <img src="figures/HAAM CNN UNET Implementation.png" width="850">
 </p> 
 
 <p align="center">
-  <img src="figures/HAAM ONN UNET Implementation" width="850">
+  <img src="figures/HAAM ONN UNET Implementation.png" width="850">
 </p>
 The CNN version uses standard `Conv2d` operations, whereas the ONN version incorporates `SelfONN2d` layers for the channel-attention component.
 
