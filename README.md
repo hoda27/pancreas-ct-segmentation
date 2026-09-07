@@ -304,7 +304,7 @@ After obtaining the NIH Pancreas-CT dataset, preprocess the CT volumes and masks
 The patient-level fold assignment is generated separately so that slices from the same patient remain within the same split.
 
 ---
-
+```
 ## Results
 
 ### Recommended visualizations
@@ -321,11 +321,6 @@ The following visualizations are included or can be generated from the notebooks
 * Qualitative best / average / worst examples
 
 ---
-
-## Example Segmentation Output
-
-A useful qualitative comparison consists of:
-
 ## Reproducibility
 
 For reproducible experiments:
@@ -340,51 +335,6 @@ For reproducible experiments:
 This ensures that the comparison focuses on the architectural difference rather than differences in dataset allocation or training procedure.
 
 ---
-
-## Limitations
-
-Several limitations should be considered:
-
-* The experiments use **2D slices** extracted from 3D CT volumes, which does not explicitly model inter-slice anatomical context.
-* Pancreas segmentation is challenging because the pancreas is relatively small and has highly variable shape and appearance.
-* Dataset size is limited compared with many large-scale computer vision benchmarks.
-* ONN layers can introduce greater computational and numerical complexity than standard convolutional layers.
-* Performance on an external dataset may differ because of differences in scanners, acquisition protocols, and patient populations.
-
----
-
-## Future Work
-
-Potential extensions include:
-
-* **3D segmentation** to exploit volumetric CT information
-* Integration with **nnU-Net**
-* More extensive hyperparameter optimization
-* External-dataset evaluation
-* Explainable AI (XAI) for visualizing model attention
-* Analysis of computational efficiency and inference time
-* Investigation of different SelfONN configurations
-* Deployment of the segmentation model in a clinical decision-support application
-
----
-
-## Technologies
-
-```text
-Python
-PyTorch
-OpenCV
-Albumentations
-NumPy
-Pandas
-scikit-learn
-Matplotlib
-CUDA
-SelfONN / fastonn
-```
-
----
-
 ## Acknowledgements
 
 This project builds upon established work in biomedical image segmentation, including the U-Net and HAAM Attention U-Net architectures, as well as operational neural network approaches implemented through the `fastonn` framework.
@@ -392,19 +342,16 @@ This project builds upon established work in biomedical image segmentation, incl
 The pancreas CT data used in this work originates from the **NIH Pancreas-CT dataset**.
 
 ---
-
 ## Citation
 
-If this project is useful for your research, please cite the associated thesis or publication:
+If this project is useful for your research, please cite this repo:
 
-```bibtex
 @mastersthesis{desouki_pancreas_segmentation,
   author  = {Hoda Desouki},
   title   = {Pancreas CT Segmentation Using Attention U-Net with Hybrid Adaptive Attention},
-  school  = {Your University},
+  school  = {GIU Berlin},
   year    = {2026}
 }
-```
 
 ---
 ## Author
